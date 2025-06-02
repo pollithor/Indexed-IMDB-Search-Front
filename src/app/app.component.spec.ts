@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ng19-tailwind4' title`, () => {
+  it(`should have the 'ng20-tailwind4' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng19-tailwind4');
+    expect(app.title).toEqual('ng20-tailwind4');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng19-tailwind4');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng20-tailwind4');
   });
 });
