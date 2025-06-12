@@ -11,6 +11,9 @@
 npm-debug.log
 yarn-error.log
 
+# Meilisearch
+/meili_data
+
 # IDEs and editors
 .idea/
 .project
